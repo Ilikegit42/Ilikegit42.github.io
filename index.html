@@ -6,7 +6,7 @@
     </head>
     <body>
         <input type="text" name="number" value=""/>
-        <input type="button" value="calculate" onclick="alert(calcSqrt(document.getElementsByName('number')[0].value))"/>
-        <textarea rows="5" cols="7" name="bobby"> </textarea>
+        <input type="button" value="calculate" onclick="document.getElementsByName('bobby')[0].value = calcSqrt(document.getElementsByName('number')[0].value)"/> <br/>
+        <textarea rows="5" cols="20" name="bobby"> </textarea>
     </body>
 </html>
