@@ -12,5 +12,5 @@ function calcSqrt(num){
         }
     }
 
-    return res + "\nRadical este... " + s;
+    return res + "\nAaaaaand the sqare root is... " + s;
 }
